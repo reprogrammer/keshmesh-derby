@@ -82,8 +82,8 @@
 	
   <target name="compile_jdbc2" depends="compile_jsr169">
     <javac
-      source="1.4"
-      target="1.4"
+      source="1.5"
+      target="1.5"
       bootclasspath="${empty}"
       nowarn="on"
       debug="${debug}"
@@ -96,6 +96,7 @@
       destdir="${out.dir}">
       <classpath>
         <pathelement path="${java14compile.classpath}"/>
+      	<pathelement path="${keshmesh}"/>
       </classpath>
       <include name="${derby.dir}/jdbc/AutoloadedDriver.java"/>
       <include name="${derby.dir}/jdbc/EmbeddedDriver.java"/>
@@ -109,8 +110,8 @@
 
  <target name="compile_jdbc3">
     <javac
-      source="1.4"
-      target="1.4"
+      source="1.5"
+      target="1.5"
       bootclasspath="${empty}"
       nowarn="on"
       debug="${debug}"
@@ -123,6 +124,7 @@
       destdir="${out.dir}">
       <classpath>
         <pathelement path="${java14compile.classpath}"/>
+        <pathelement path="${keshmesh}"/>
       </classpath>
       <include name="${derby.dir}/jdbc/Driver30.java"/>
       <include name="${derby.dir}/jdbc/EmbedXAConnection.java"/>

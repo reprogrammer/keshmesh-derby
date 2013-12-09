@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="java/build"/>
+	<classpathentry kind="src" path="java/client"/>
+	<classpathentry excluding="scores/java/common/|localcal/src/|vtis/java/|simplemobile/|scores/java/server/|workingwithderby/|nserverdemo/|scores/java/client/|simple/" kind="src" path="java/demo"/>
+	<classpathentry kind="src" path="java/demo/localcal/src"/>
+	<classpathentry kind="src" path="java/demo/nserverdemo"/>
+	<classpathentry kind="src" path="java/demo/scores/java/client"/>
+	<classpathentry kind="src" path="java/demo/scores/java/common"/>
+	<classpathentry kind="src" path="java/demo/scores/java/server"/>
+	<classpathentry kind="src" path="java/demo/simple"/>
+	<classpathentry kind="src" path="java/demo/simplemobile"/>
+	<classpathentry kind="src" path="java/demo/vtis/java"/>
+	<classpathentry kind="src" path="java/demo/workingwithderby"/>
+	<classpathentry kind="src" path="java/drda"/>
+	<classpathentry kind="src" path="java/engine"/>
+	<classpathentry kind="src" path="java/shared"/>
+	<classpathentry kind="src" path="java/storeless"/>
+	<classpathentry kind="src" path="java/stubs/felix"/>
+	<classpathentry kind="src" path="java/stubs/jdbc3"/>
+	<classpathentry kind="src" path="java/stubs/jdbc4"/>
+	<classpathentry kind="src" path="java/stubs/jsr169"/>
+	<classpathentry kind="src" path="java/testing"/>
+	<classpathentry kind="src" path="java/tools"/>
+	<classpathentry kind="src" path="maven2"/>
+	<classpathentry kind="src" path="plugins/eclipse/org.apache.derby.ui/src"/>
+	<classpathentry kind="src" path="tools/l10n"/>
+	<classpathentry kind="lib" path="tools/java/geronimo-spec-servlet-2.4-rc4.jar"/>
+	<classpathentry kind="lib" path="tools/java/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="tools/java/javacc.jar"/>
+	<classpathentry kind="lib" path="tools/java/serializer.jar"/>
+	<classpathentry kind="lib" path="tools/java/xalan.jar"/>
+	<classpathentry kind="lib" path="tools/java/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="tools/java/annotations.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

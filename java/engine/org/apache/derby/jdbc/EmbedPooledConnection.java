@@ -35,6 +35,8 @@ import org.apache.derby.iapi.jdbc.EngineConnection;
 import org.apache.derby.impl.jdbc.EmbedPreparedStatement;
 import org.apache.derby.impl.jdbc.EmbedCallableStatement;
 
+import edu.illinois.keshmesh.annotations.EntryPoint;
+
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -105,6 +107,7 @@ class EmbedPooledConnection implements javax.sql.PooledConnection, BrokeredConne
 
 	protected boolean isActive;
     
+	@EntryPoint
     private synchronized int nextId()
     {
         return idCounter++;
